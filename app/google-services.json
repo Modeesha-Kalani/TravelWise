@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "144360587813",
+    "project_id": "travelwise-e64a8",
+    "storage_bucket": "travelwise-e64a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144360587813:android:5dd616078722cd653ef5cc",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144360587813-vufmu009b2i0f3hi3i2ud5550dha80e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuTn7B2geJH4DAM6wk-3ryUfA9xdrxgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144360587813-vufmu009b2i0f3hi3i2ud5550dha80e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
