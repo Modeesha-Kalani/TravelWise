@@ -6,17 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".myjourneylist">
 
+    <include
+        layout="@layout/activity_toolbar">
+    </include>
+
+
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/myjourneylist"
+        android:layout_width="409dp"
+        android:layout_height="631dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

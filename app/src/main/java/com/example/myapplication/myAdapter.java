@@ -55,11 +55,11 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.MyViewHolder> {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            referenceid = itemView.findViewById(R.id.tvfirstName);
-            startpoint = itemView.findViewById(R.id.tvlastName);
-            destination = itemView.findViewById(R.id.tvage);
+            referenceid = itemView.findViewById(R.id.referenceid);
+            startpoint = itemView.findViewById(R.id.startpoint);
+            destination = itemView.findViewById(R.id.destination);
             date = itemView.findViewById(R.id.date);
-            numoftickets = itemView.findViewById(R.id.tickets);
+            numoftickets = itemView.findViewById(R.id.numoftickets);
 
         }
     }

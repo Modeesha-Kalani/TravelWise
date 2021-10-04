@@ -31,7 +31,7 @@
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/tvfirstName"
+                android:id="@+id/referenceid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -56,7 +56,7 @@
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/tvlastName"
+                android:id="@+id/startpoint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -82,7 +82,7 @@
 
 
             <TextView
-                android:id="@+id/tvage"
+                android:id="@+id/destination"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -134,7 +134,7 @@
 
 
             <TextView
-                android:id="@+id/tickets"
+                android:id="@+id/numoftickets"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"

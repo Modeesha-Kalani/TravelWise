@@ -14,8 +14,8 @@
         <activity android:name=".requestticket" />
         <activity android:name=".createprofile" />
         <activity android:name=".toolbar" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".myjourneylist">
+        <activity android:name=".myjourneylist" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -42,8 +42,8 @@ public class myjourneylist extends AppCompatActivity {
 
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()){
 
-                    myjourney user = dataSnapshot.getValue(myjourney.class);
-                    list.add(user);
+                    myjourney mydata = dataSnapshot.getValue(myjourney.class);
+                    list.add(mydata);
 
 
                 }
