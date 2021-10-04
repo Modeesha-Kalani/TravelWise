@@ -6,40 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".addcredits">
 
-    <Spinner
-        android:id="@+id/destination"
-        android:layout_width="379dp"
-        android:layout_height="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <include
+        android:id="@+id/include2"
+        layout="@layout/activity_toolbar"></include>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="132dp"
-        android:layout_height="68dp"
-        android:text="TravelWise "
-        android:textColor="#009688"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="56dp"
         android:text="Add Credits"
-        android:textColor="#0C0C0C"
-        android:textSize="15sp"
+        android:textColor="#009688"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/include2" />
 
     <EditText
         android:id="@+id/usernm"
@@ -100,19 +82,55 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/availableamt" />
 
-    <Spinner
-        android:layout_width="379dp"
+
+    <EditText
+        android:id="@+id/bank2"
+        android:layout_width="170dp"
         android:layout_height="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="16dp"
+        android:background="#70A7DFDF"
+        android:ems="10"
+        android:hint="CSV"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#0E0E0E"
+        android:textColorHint="#6E6363"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/startpoint"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/exdate"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="16dp"
+        android:background="#70A7DFDF"
+        android:ems="10"
+        android:hint="Expire Date      MM/YY"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#0E0E0E"
+        android:textColorHint="#6E6363"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/startpoint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/numoftickets"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="104dp"
         android:layout_marginEnd="16dp"
         android:background="#70A7DFDF"
         android:ems="10"
@@ -123,7 +141,7 @@
         android:textColorHint="#6E6363"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/payamnt" />
 
@@ -132,7 +150,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="544dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/teal_700"
         android:text="Add Credit"
