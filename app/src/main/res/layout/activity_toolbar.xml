@@ -21,7 +21,7 @@
             android:id="@+id/textInput2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="89dp"
             android:layout_toRightOf="@+id/left_icon"
             android:text="Travelwise"
             android:textColor="@android:color/white"

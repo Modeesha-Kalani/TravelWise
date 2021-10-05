@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <include layout="@layout/activity_toolbar"></include>
 
 
@@ -33,7 +34,7 @@
         android:background="#70A7DFDF"
         android:ems="10"
         android:hint="Account Number"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:padding="10dp"
         android:textColor="#0E0E0E"
         android:textColorHint="#6E6363"
@@ -54,7 +55,7 @@
         android:background="#70A7DFDF"
         android:ems="10"
         android:hint="Name"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:padding="10dp"
         android:textColor="#0E0E0E"
         android:textColorHint="#6E6363"
@@ -75,7 +76,7 @@
         android:background="#70A7DFDF"
         android:ems="10"
         android:hint="Bank"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:padding="10dp"
         android:textColor="#0E0E0E"
         android:textColorHint="#6E6363"
@@ -96,7 +97,7 @@
         android:background="#70A7DFDF"
         android:ems="10"
         android:hint="Amount to be Pay"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:padding="10dp"
         android:textColor="#0E0E0E"
         android:textColorHint="#6E6363"
@@ -117,7 +118,7 @@
         android:background="#70A7DFDF"
         android:ems="10"
         android:hint="CSV"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:padding="10dp"
         android:textColor="#0E0E0E"
         android:textColorHint="#6E6363"
@@ -138,7 +139,7 @@
         android:background="#70A7DFDF"
         android:ems="10"
         android:hint="Expire Date      MM/YY"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:padding="10dp"
         android:textColor="#0E0E0E"
         android:textColorHint="#6E6363"
@@ -176,7 +177,7 @@
         app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.384" >
+        app:layout_constraintVertical_bias="0.384">
 
         <TextView
             android:id="@+id/textView3"
@@ -184,7 +185,7 @@
             android:layout_height="match_parent"
             android:text="Available Amount: 5000"
             android:textColor="#171616"
-            android:textSize="24sp" />
+            android:textSize="24sp"/>
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
